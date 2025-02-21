@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+selenium
+beautifulsoup4
+webdriver-manager
+python-dotenv
+weaviate-client
+google-generativeai
+sentence-transformers
