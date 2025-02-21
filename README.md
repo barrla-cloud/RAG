@@ -128,8 +128,8 @@ After=network.target
 [Service]
 User=ubuntu
 Group=ubuntu
-WorkingDirectory=/RAG/backend
-ExecStart=/RAG/backend/venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000 --workers 4
+WorkingDirectory=/home/ubuntu/RAG/backend
+ExecStart=/home/ubuntu/RAG/backend/venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000 --workers 4
 Restart=always
  
 [Install]
